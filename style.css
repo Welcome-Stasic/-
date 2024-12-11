@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "FuturaMediumC";
+  src: url("assets/шрифты/fonts/first_shirt/futuramediumc.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaDemiC";
+  src: url("assets/шрифты/second_shirt/fonts/futurademic.ttf") format("truetype");
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: "FuturaDemiC", sans-serif;
+  background-image: url("assets/21178fc339d31de75b12c1885e12df4c.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  height: 85px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ms__header-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__text {
+  text-decoration: none;
+  font-family: "FuturaDemiC";
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px;
+  margin-right: 55px;
+  color: white;
+}
+
+.line {
+  margin-right: 69px;
+  padding: 30px 0.1px 30px 0.1px;
+  background-color: white;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li a {
+  font-family: "FuturaDemiC";
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px;
+  color: white;
+
+}
+
+header button {
+  margin-left: 105px;
+  cursor: pointer;
+  font-family: "FuturaDemiC";
+  font-weight: 200;
+  font-size: 14px;
+  border-radius: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 14px 46px 10px 46px;
+  border: 2px solid white;
+}
+
+main h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+  margin-top: 239px;
+  margin-left: 240px;
+  margin-bottom: 94px;
+}
+
+.box {
+  margin-left: 240px;
+}
+
+.first-box {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 33px;
+}
+
+.second-box {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 33px;
+}
+
+.main--box {
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  width: 410px;
+  height: 170px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0;
+  background-color: rgba(105, 200, 72, 1);
+}
+
+.main--box p {
+  margin: 65px 0px 55px 31px;
+}
+
+.main--box img {
+  margin: 65px 0px 55px 131px;
+}
+
+.main-bottom-box {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  width: 410px;
+  height: 80px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 0;
+  margin-bottom: 133px;
+}
+
+.main-bottom-box img {
+  margin-left: 31px;
+  margin-top: 20px;
+}
+
+.main-bottom-box p {
+  margin-left: 25px;
+  margin-top: 27px;
+}
+
+.main__service h1 {
+  font-family: "FuturaDemiC";
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 55px;
+  margin-left: 240px;
+  color: rgb(0, 0, 0);
+}
+
+.service_mainBox {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service_box {
+  margin-right: 31px;
+  width: 337px;
+  height: 337px;
+  max-width: 337px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+
+}
+
+.service_box:hover {
+  transform: scale(1.1);
+}
+
+.service_box h3 {
+  margin-left: 29px;
+  margin-top: 31px;
+  font-family: "FuturaDemiC";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.service_box p {
+  font-family: "FuturaDemiC";
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.service_box img {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 41px;
+}
+
+.main__press {
+  margin-top: 129px;
+}
+
+.main__press h1 {
+  font-family: "FuturaDemiC";
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 55px;
+  margin-left: 240px;
+  color: rgb(0, 0, 0);
+}
+
+.press_mainBox {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.press_box {
+  margin-right: 31px;
+  width: 337px;
+  height: 337px;
+  max-width: 337px;
+  border-radius: 15px;
+}
+
+.press_box h3 {
+  margin-left: 29px;
+  margin-top: 31px;
+  font-family: "FuturaDemiC";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.press_box p {
+  margin-top: 30px;
+  font-family: "FuturaDemiC";
+  font-weight: 100;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.press_box img {
+  border-radius: 10px 10px 10px 0px;
+  margin-bottom: 0px;
+}
+
+.date_bottom {
+  margin-top: -4px;
+  background-color: rgba(63, 97, 129, 1);
+  border-radius: 0px 0px 5px 5px;
+  width: 93px;
+  height: 32px;
+}
+
+.date_bottom span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "FuturaMediumC";
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+.sob {
+  text-decoration: underline;
+  font-weight: 100;
+  font-size: 18px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(63, 97, 129, 1);
+}
+
+footer a {
+  color: white;
+}
+
+.footer-container {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "FuturaDemiC";
+  padding-top: 37px;
+  padding-bottom: 28px;
+}
+
+.first-container {
+  margin-right: 171px;
+}
+
+.first-container h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.first-container nav {
+  margin-top: 36px;
+
+}
+
+.first-container span {
+  margin-top: 125px;
+}
+
+.first-container .OOO {
+  margin-top: 125px;
+}
+
+.second-container nav {
+  display: flex;
+}
+
+.img-sontent {
+  margin-right: 142px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  gap: 15px;
+  display: flex;
+  width: 56px;
+  height: 44px;
+}
+
+.mir {
+  width: 56px;
+  height: 44px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.second-container {
+  margin-right: 235px;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+.second-container nav ul li {
+  font-family: "FuturaMediumC";
+  font-weight: 100;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.third-container img {
+  top: 0;
+}
+
+.third-container nav ul li {
+  margin-top: 15px;
+}
+
+.third-container nav ul {
+  margin-top: 50px;
+}
